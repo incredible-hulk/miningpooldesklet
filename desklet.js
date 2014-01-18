@@ -160,7 +160,7 @@ MyDesklet.prototype = {
 		this.mposDashData = GLib.get_home_dir() + "/.local/share/cinnamon/desklets/mpos@incrediblehulk/dashdata.json";
 		this.mposBlockData = GLib.get_home_dir() + "/.local/share/cinnamon/desklets/mpos@incrediblehulk/blockdata.json";
 		this.configFile = GLib.get_home_dir() + "/.local/share/cinnamon/desklets/mpos@incrediblehulk/metadata.json";
-		this.helpFile = GLib.get_home_dir() + "/.local/share/cinnamon/desklets/mpos@incrediblehulk/README";
+		this.helpFile = GLib.get_home_dir() + "/.local/share/cinnamon/desklets/mpos@incrediblehulk/README.md";
 		
 		global.log("Config file " + this.configFile);
 		
