@@ -1,0 +1,32 @@
+{
+	"head" : {
+		"type" : "header",
+		"description" : "First Section"
+	},
+	"mposURL": {
+		"type" : "entry",
+		"default" : "https://bet.coinsilo.com",
+		"description" : "Pool URL:",
+		"tooltip" : "Set your pool URL here"
+	},
+	"mposAPIKey": {
+		"type" : "entry",
+		"default" : "",
+		"description" : "API Key:",
+		"tooltip" : "Set your API key here"
+	},
+	"mposInterval" : {
+		"type": "combobox",
+		"default" : "60",
+		"description" : "Refresh Interval:",
+			"options" : {
+			"10" : "10",
+			"30" : "30",
+			"60" : "60",
+			"120" : "120",
+			"180" : "180",
+			"240" : "240"        
+			},
+		"tooltip" : "Change the refresh interval (in seconds)"
+	}
+}
